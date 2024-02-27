@@ -291,6 +291,7 @@ const FeedbackDialog = ({ conference, onClose, title }: IProps) => {
             disableEnter = true
             onCancel = { onCancel }
             onSubmit = { _onSubmit }
+            disableEnter = { true }
             size = 'large'
             titleKey = 'feedback.rateExperience'>
             <div className = { classes.dialog }>
